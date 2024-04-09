@@ -486,7 +486,6 @@ aside p {
       align-items: flex-start;
     }
 
-
     /***** FAQ  *****/
     .faq .content-wrapper {
       justify-content: space-between;
@@ -506,6 +505,60 @@ aside p {
   
   @media only screen and (min-width: 1200px) {
     /* Desktop styles here */
+
+    .content-wrapper {
+      max-width: 960px;
+    }
+
+    /* header  */
+    header {
+      padding: 15px 0;
+    }
+
+    /* hero  */
+    .hero-area h1 {
+      width: 80%;
+    }
+
+    /* aside  */
+    aside .content-wrapper {
+      justify-content: space-around;
+    }
+
+    aside .content-wrapper .form-description, 
+    aside .content-wrapper .form {
+      width: 30%;
+    }
+
+    /* features  */
+    .features h1 {
+      width: 90%;
+    }
+
+    .features article {
+      flex-basis: 33%;
+    }
+
+    /* reviews */
+    .reviews h2 {
+      margin-bottom: 50px;
+    }
+
+    .reviews article div {
+      width: 42%;
+    }
+
+    /***** ABOUT  *****/
+    .mission h2,
+    .contact-section .content-wrapper h2 {
+        width: 95%
+    }
+
+    /***** FAQ  *****/
+    .faq h2 {
+      width: 100%;
+    }
+
   }
   
 /* ==========================================================================
