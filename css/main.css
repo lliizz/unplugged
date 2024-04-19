@@ -212,6 +212,7 @@ footer p {
 
 footer .content-wrapper {
   width: 55%;
+  margin-bottom: 0;
 }
 
 footer .contact {
